@@ -1,7 +1,9 @@
 {
   "name": "@awei-lib/clone",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "jsnext:main": "dist/index.esm.js",
+  "module": "dist/index.esm.js",
   "scripts": {
     "test": "nyc mocha",
     "build:self": "rollup -c config/rollup.config.js",
