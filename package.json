@@ -1,5 +1,5 @@
 {
-  "name": "clone",
+  "name": "@awei-lib/clone",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -33,5 +33,6 @@
   "directories": {
     "test": "test"
   },
-  "description": ""
+  "description": "",
+  "files": ["/dist", "LICENSE"]
 }
