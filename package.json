@@ -1,0 +1,37 @@
+{
+  "name": "clone",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha",
+    "build:self": "rollup -c config/rollup.config.js",
+    "build:esm": "rollup -c config/rollup.config.esm.js",
+    "build:aio": "rollup -c config/rollup.config.aio.js",
+    "build": "npm run build:self && npm run build:esm && npm run build:aio"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "@babel/plugin-transform-runtime": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "browserslist": "^4.21.5",
+    "expect.js": "^0.3.1",
+    "mocha": "^10.2.0",
+    "nyc": "^15.1.0",
+    "rollup": "^3.18.0"
+  },
+  "sideEffects": false,
+  "dependencies": {
+    "@babel/runtime-corejs3": "^7.21.0",
+    "core-js": "^3.29.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "description": ""
+}
