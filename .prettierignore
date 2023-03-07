@@ -1,0 +1,7 @@
+# .prettierignore
+dist
+coverage
+.nyc_output
+package-lock.json
+node_modules
+.nycrc

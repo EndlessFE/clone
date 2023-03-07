@@ -1,6 +1,6 @@
 {
   "name": "@awei-lib/clone",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "jsnext:main": "dist/index.esm.js",
   "module": "dist/index.esm.js",
@@ -23,8 +23,10 @@
     "@rollup/plugin-node-resolve": "^15.0.1",
     "browserslist": "^4.21.5",
     "expect.js": "^0.3.1",
+    "husky": "^8.0.3",
     "mocha": "^10.2.0",
     "nyc": "^15.1.0",
+    "prettier": "^2.8.4",
     "rollup": "^3.18.0"
   },
   "sideEffects": false,
@@ -36,5 +38,8 @@
     "test": "test"
   },
   "description": "",
-  "files": ["/dist", "LICENSE"]
+  "files": [
+    "/dist",
+    "LICENSE"
+  ]
 }
