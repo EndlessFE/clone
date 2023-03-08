@@ -5,15 +5,13 @@ module.exports = {
     node: true,
     mocha: true,
   },
-  extends: ["eslint:recommended", "prettier"],
+  extends: ['eslint:recommended', 'prettier'],
   overrides: [],
-  plugins: ["prettier"],
   parserOptions: {
-    ecmaVersion: "latest",
-    sourceType: "module",
+    ecmaVersion: 'latest',
+    sourceType: 'module',
   },
   rules: {
-    "no-prototype-builtins": 0,
-    "prettier/prettier": "error",
+    'no-prototype-builtins': 0,
   },
 };
